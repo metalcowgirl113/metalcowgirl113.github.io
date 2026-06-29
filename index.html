@@ -5,44 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paint & Paper by Kathy | Portfolio Hub</title>
     <style>
+        /* Forces the site to take up 100% of the screen without ugly borders or scrollbars */
         body, html {
             margin: 0;
             padding: 0;
             width: 100%;
             height: 100%;
             overflow: hidden;
-            background-color: #FAF6F0; /* Soft warm baseline to match your aesthetic */
+            background-color: #ffffff;
         }
-        /* Custom responsive wrapper built to match Canva's native script expectations */
-        .canva-embed-container {
-            position: relative;
+        iframe {
             width: 100%;
             height: 100%;
-            padding: 0;
-            margin: 0;
+            border: none;
+            display: block;
         }
     </style>
 </head>
 <body>
 
-    <div class="canva-embed-container">
-        <!-- Official Canva Verified Script Integration Hook -->
-        <div class="canva-embed" 
-             data-design-id="DAF_YourDesignID" 
-             data-embed-version="4" 
-             style="width: 100%; height: 100%; margin: 0; padding: 0;">
-        </div>
-        <script async src="https://canva.com"></script>
-        
-        <!-- Fallback Navigation layer if the script encounters strict firewall filters -->
-        <noscript>
-            <div style="text-align: center; padding: 50px; font-family: sans-serif;">
-                <h2>Paint & Paper by Kathy</h2>
-                <p>To view this responsive portfolio layout, please visit the direct web address:</p>
-                <a href="https://paintandpaperbykathy.com/" style="color: #d4af37; font-weight: bold;">Launch Live Custom Site</a>
-            </div>
-        </noscript>
-    </div>
+    <!-- Your official interactive Canva website build -->
+    <iframe 
+        loading="lazy" 
+        src="https://www.canva.com/design/DAHN-fecerc/sNqOEmDRT_CCuSP3y-CZkA/view?embed" 
+        allowfullscreen="allowfullscreen" 
+        allow="fullscreen"
+        title="Paint & Paper by Kathy">
+    </iframe>
 
 </body>
 </html>
